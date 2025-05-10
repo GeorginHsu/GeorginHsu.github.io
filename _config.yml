@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-title                    : "Jiajun Xu / Site Title"
+locale                   : "zh-CN"
+title                    : "Jiajun Xu / homepage"
 title_separator          : "-"
 name                     : &name "Jiajun Xu"
 description              : &description "Hi, I am Jiajun Xu, a undergraduate student at Computer Science and Technology, Tsinghua University. I am interested in machine learning, computer vision and multimodal. I am also a member of the Tsinghua University Graphics and Geometric Computing Group."
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://GeorginHsu.github.io"
+url                      : https://GeorginHsu.github.io # the base hostname & protocol for your site e.g. "https://GeorginHsu.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -21,8 +21,8 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
-  name             : "Your Sidebar Name"
+  avatar           : "profile.png"
+  name             : "Jiajun Xu"
   pronouns         : "he/him"  
   bio              : "interested in machine learning, computer vision and multimodal"
   location         : "Beijing, China"
