@@ -3,7 +3,7 @@ title: "R-Bench: Graduate-level Multi-disciplinary Benchmarks for LLM & MLLM Com
 collection: publications
 category: conferences
 permalink: https://arxiv.org/pdf/2505.02018
-excerpt: 'In this paper, we introduce a graduate-level, multi-disciplinary, EnglishChinese benchmark, dubbed as Reasoning Bench (R-Bench), for assessing the reasoning capability of both language and multimodal models. RBench spans 1,094 questions across 108 subjects for language model evaluation and 665 questions across 83 subjects for multimodal model testing in both English and Chinese. #693.'
+excerpt: 'In this paper, we introduce a graduate-level, multi-disciplinary, EnglishChinese benchmark, dubbed as Reasoning Bench (R-Bench), for assessing the reasoning capability of both language and multimodal models. RBench spans 1,094 questions across 108 subjects for language model evaluation and 665 questions across 83 subjects for multimodal model testing in both English and Chinese.'
 date: 2025-05-04
 venue: 'ICML2025'
 paperurl: 'https://arxiv.org/pdf/2505.02018'

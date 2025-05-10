@@ -3,9 +3,9 @@ title: "VisionReward: Fine-Grained Multi-Dimensional Human Preference Learning f
 collection: publications
 category: conferences
 permalink: https://arxiv.org/pdf/2412.21059
-excerpt: 'We present VisionReward, a general framework for learning human visual preferences in both image and video generation. Specifically, we employ a hierarchical visual assessment framework to capture fine-grained human preferences, and leverages linear weighting to enable interpretable preference learning. Furthermore, we propose a multi-dimensional consistent strategy when using VisionReward as a reward model during preference optimization for visual generation. #693.'
+excerpt: 'We present VisionReward, a general framework for learning human visual preferences in both image and video generation. Specifically, we employ a hierarchical visual assessment framework to capture fine-grained human preferences, and leverages linear weighting to enable interpretable preference learning. Furthermore, we propose a multi-dimensional consistent strategy when using VisionReward as a reward model during preference optimization for visual generation.'
 date: 2025-03-23
-# venue: 'ICML2025'
+venue: 'ICCV2026 underreview'
 paperurl: 'https://arxiv.org/pdf/2412.21059'
 # citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
