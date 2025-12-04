@@ -10,7 +10,7 @@ Welcome to my homepage!
 
 I am currently a senior student in Tsinghua University, Computer Science and Technology Department.
 
-My research interests lay on robotics, multi-modal and computer vision. 
+My research interests lay on embodied AI, multi-modal and computer vision. 
 
 Specifically, I’m passionate about dexterous hand and humanoid. Besides, I’m interested in world model and VLA.
 
