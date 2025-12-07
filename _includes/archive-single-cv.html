@@ -1,370 +1,362 @@
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jiajun Xu's CV</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
-    
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#000000',
-                        secondary: '#4B5563',
-                        accent: '#1E40AF',
-                        light: '#F9FAFB',
-                        gray: '#9CA3AF'
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'system-ui', 'sans-serif'],
-                    },
-                    spacing: {
-                        '0.5cm': '0.5cm',
-                        '1cm': '1cm',
-                        '1.5cm': '1.5cm',
-                        '2cm': '2cm',
-                        '5pt': '5pt',
-                    },
-                    fontSize: {
-                        '25pt': '25pt',
-                    }
-                },
-            }
-        }
-    </script>
-    
-    <style type="text/tailwindcss">
-        @layer utilities {
-            .content-auto {
-                content-visibility: auto;
-            }
-            .doublespaced {
-                line-height: 1.5;
-            }
-            .ragged-right {
-                text-align: right;
-            }
-            .section-title {
-                @apply text-lg font-bold mt-6 mb-3 border-b border-primary;
-            }
-            .entry-container {
-                @apply mb-3;
-            }
-            .highlighted-item {
-                @apply relative pl-4 before:content-['●'] before:absolute before:left-0 before:text-primary;
-            }
-            .sub-item {
-                @apply relative pl-4 before:content-['–'] before:absolute before:left-0 before:text-primary;
-            }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jiajun Xu's CV</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#000000',
+            secondary: '#4B5563',
+            accent: '#1E40AF',
+            light: '#F9FAFB',
+            gray: '#9CA3AF'
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+          spacing: {
+            '0.5cm': '0.5cm',
+            '1cm': '1cm',
+            '1.5cm': '1.5cm',
+            '2cm': '2cm',
+            '5pt': '5pt',
+          },
+          fontSize: {
+            '25pt': '25pt',
+          }
+        },
+      }
+    }
+  </script>
+
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto { content-visibility: auto; }
+      .doublespaced { line-height: 1.5; }
+      .ragged-right { text-align: right; }
+      .section-title { @apply text-lg font-bold mt-6 mb-3 border-b border-primary; }
+      .entry-container { @apply mb-3; }
+      .highlighted-item { @apply relative pl-4 before:content-['●'] before:absolute before:left-0 before:text-primary; }
+      .sub-item { @apply relative pl-4 before:content-['–'] before:absolute before:left-0 before:text-primary; }
+    }
+  </style>
 </head>
+
 <body class="bg-gray-50 text-primary font-sans mx-6 md:mx-12 lg:mx-24 py-8 max-w-5xl mx-auto">
-    <!-- 简历主体卡片 -->
-    <div class="bg-white shadow-xl rounded-lg p-8 md:p-12">
-        <!-- 头部信息 -->
-        <header class="text-center mb-8">
-            <h1 class="text-25pt font-bold mb-2">Jiajun Xu</h1>
-            <p class="text-gray-600 mb-1">Graphics and Geometric Computing Group, Room 3 - 523, Information Technology Building (FIT), Tsinghua University</p>
-            <p class="text-accent hover:underline transition-colors"><a href="mailto:xjj22@mails.tsinghua.edu.cn">xjj22@mails.tsinghua.edu.cn</a></p>
-        </header>
+  <div class="bg-white shadow-xl rounded-lg p-8 md:p-12">
 
-        <!-- 研究兴趣 -->
-        <section class="mb-8">
-            <h2 class="section-title">Research Interests</h2>
-            <div class="entry-container">
-                <ul class="space-y-2">
-                    <li class="highlighted-item">My research interests lay on machine learning, computer vision and multi-modal. Specifically, I'm passionate about exploring visual model understanding and visual generation. My specific research interests are:</li>
-                    <ul class="space-y-1 mt-1 pl-4">
-                        <li class="sub-item">Reinforcement learning for video generation models, manipulating diffusion model noise to get faster and stronger generators.</li>
-                        <li class="sub-item">Exploring the latent space of transformers and fine-tuning attention to reduce multi-modal hallucinations.</li>
-                    </ul>
-                </ul>
-            </div>
-        </section>
+    <!-- Header -->
+    <header class="text-center mb-8">
+      <h1 class="text-25pt font-bold mb-2">Jiajun Xu</h1>
+      <p class="text-gray-600 mb-1">
+        Graphics and Geometric Computing Group, Room 3-523, Information Technology Building (FIT), Tsinghua University
+      </p>
+      <p class="text-gray-600 mb-1">
+        <span class="font-semibold">Email:</span>
+        <a class="text-accent hover:underline transition-colors" href="mailto:xjj22@mails.tsinghua.edu.cn">xjj22@mails.tsinghua.edu.cn</a>
+        <span class="mx-2 text-gray-400">|</span>
+        <span class="font-semibold">Homepage:</span>
+        <a class="text-accent hover:underline transition-colors" href="https://georginhsu.github.io" target="_blank" rel="noopener noreferrer">
+          https://georginhsu.github.io
+        </a>
+      </p>
+    </header>
 
-        <!-- 教育经历 -->
-        <section class="mb-8">
-            <h2 class="section-title">Education</h2>
-            <div class="entry-container">
-                <div class="flex flex-col md:flex-row justify-between mb-1">
-                    <div class="md:w-2/3">
-                        <p class="font-semibold">Tsinghua University, Department of Computer Science and Technology</p>
-                        <p class="text-gray-600">Beijing, China</p>
-                    </div>
-                    <div class="md:w-1/3 text-right md:text-left md:pl-4">
-                        <p class="text-accent">September 2022 – June 2026</p>
-                    </div>
-                </div>
-                <ul class="space-y-1 mt-2">
-                    <li class="highlighted-item">GPA：3.69/4.0</li>
-                    <li class="highlighted-item">
-                        <span class="font-semibold">Major Courses:</span> 
-                        Computer Language and Programming, Introduction to Computer Systems, Data Structures, Discrete Mathematics, Object-Oriented Programming, Software Engineering, Computer Graphics, Principles of Compilation, Principles of Signal Processing, Artificial Neural Network, Reinforcement Learning
-                    </li>
-                    <li class="highlighted-item">Supervisor: Shi-Min Hu</li>
-                </ul>
-            </div>
-        </section>
+    <!-- Research Interests -->
+    <section class="mb-8">
+      <h2 class="section-title">Research Interests</h2>
+      <div class="entry-container">
+        <ul class="space-y-2">
+          <li class="highlighted-item">
+            My research interests lie in robotics, multimodal learning, and computer vision. Specifically, I’m passionate about dexterous hands and humanoids. I’m also interested in world models and VLA. My specific research interests include:
+          </li>
+          <ul class="space-y-1 mt-1 pl-4">
+            <li class="sub-item">Using video generation models as world models to provide an environment for robot reinforcement learning.</li>
+            <li class="sub-item">Exploring the latent space of transformers and fine-tuning attention to reduce multimodal hallucinations.</li>
+            <li class="sub-item">Chain-of-Thought (CoT) for large multimodal models.</li>
+          </ul>
+        </ul>
+      </div>
+    </section>
 
-        <!-- 发表论文 -->
-        <section class="mb-8">
-            <h2 class="section-title">Publication</h2>
-            
-            <div class="entry-container">
-                <div class="flex flex-col md:flex-row justify-between mb-1">
-                    <div class="md:w-2/3">
-                        <p class="font-semibold">R-Bench: Graduate-level Multi-disciplinary Benchmarks for LLM & MLLM Complex Reasoning Evaluation</p>
-                    </div>
-                    <!-- <div class="md:w-1/3 text-right md:text-left md:pl-4">
-                        <p class="text-accent">Jan 2025</p>
-                    </div> -->
-                </div>
-                <p class="mb-1">Meng-Hao Guo, <strong>Jiajun Xu</strong>, Yi Zhang, Jiaxi Song, Haoyang Peng, Yi-Xuan Deng, Xinzhi Dong, Kiyohiro Nakayama, Zhengyang Geng, Chen Wang, Bolin Ni, Guo-Wei Yang, Yongming Rao, Houwen Peng, Han Hu, Gordon Wetzstein, Shi-min Hu</p>
-                <p class="text-accent hover:underline transition-colors"><a href="https://arxiv.org/pdf/2505.02018">arXiv</a> (ICML 2025)</p>
-            </div>
-            
-            <div class="entry-container mt-6">
-                <div class="flex flex-col md:flex-row justify-between mb-1">
-                    <div class="md:w-2/3">
-                        <p class="font-semibold">VisionReward: Fine-Grained Multi-Dimensional Human Preference Learning for Image and Video Generation</p>
-                    </div>
-                    <!-- <div class="md:w-1/3 text-right md:text-left md:pl-4">
-                        <p class="text-accent">2025 (Under review)</p>
-                    </div> -->
-                </div>
-                <p class="mb-1">Jiazheng Xu*, Yu Huang*, Jiale Cheng, Yuanming Yang, <strong>Jiajun Xu</strong>, Yuan Wang, Wenbo Duan, Shen Yang, Qunlin Jin, Shurun Li, Jiayan Teng, Zhuoyi Yang, Wendi Zheng, Xiao Liu, Ming Ding, Xiaohan Zhang, Xiaotao Gu, Shiyu Huang, Minlie Huang, Jie Tang, Yuxiao Dong</p>
-                <p class="text-accent hover:underline transition-colors"><a href="https://arxiv.org/pdf/2412.21059">arXiv</a> (ICCV 2025 under review)</p>
-            </div>
-        </section>
+    <!-- Education -->
+    <section class="mb-8">
+      <h2 class="section-title">Education</h2>
+      <div class="entry-container">
+        <div class="flex flex-col md:flex-row justify-between mb-1">
+          <div class="md:w-2/3">
+            <p class="font-semibold">Tsinghua University, Department of Computer Science and Technology (Class of 2022–2026)</p>
+            <p class="text-gray-600">Beijing, China</p>
+          </div>
+          <div class="md:w-1/3 text-right md:text-left md:pl-4">
+            <p class="text-accent">September 2022 – June 2026</p>
+          </div>
+        </div>
+        <ul class="space-y-1 mt-2">
+          <li class="highlighted-item">GPA: 3.70/4.0</li>
+          <li class="highlighted-item">
+            <span class="font-semibold">Major Courses:</span>
+            Computer Language and Programming, Introduction to Computer Systems, Data Structures, Discrete Mathematics, Object-Oriented Programming, Software Engineering, Computer Graphics, Principles of Compilation, Principles of Signal Processing, Artificial Neural Network, Reinforcement Learning
+          </li>
+          <li class="highlighted-item">Supervisor: Shi-Min Hu</li>
+        </ul>
+      </div>
+    </section>
 
-        <!-- 技能 -->
-        <section class="mb-8">
-            <h2 class="section-title">Skills</h2>
-            <div class="entry-container">
-                <p class="mb-2"><span class="font-semibold">Artificial Intelligence:</span> PyTorch, Transformer Frameworks, Diffusion Model, build model frameworks and train models.</p>
-                <p><span class="font-semibold">Programming Languages:</span> C, C++, Python, Java, Rust.</p>
-            </div>
-        </section>
+    <!-- Publication -->
+    <section class="mb-8">
+      <h2 class="section-title">Publication</h2>
 
-        <!-- 研究经历 -->
-        <section class="mb-8">
-            <h2 class="section-title">Research Experience</h2>
-            
-            <div class="entry-container">
-                <div class="flex flex-col md:flex-row justify-between mb-1">
-                    <div class="md:w-2/3">
-                        <p class="font-semibold">Graphics and Geometric Computing Group, Tsinghua University</p>
-                        <p class="text-gray-600">Beijing, China</p>
-                    </div>
-                    <div class="md:w-1/3 text-right md:text-left md:pl-4">
-                        <p class="text-accent">October 2024 – Present</p>
-                    </div>
-                </div>
-                <ul class="space-y-1 mt-2">
-                    <li class="highlighted-item">Conducted research in the fields of computer graphics, computer vision, and multimodal large models under the guidance of Professor Shi-Min Hu.</li>
-                    <li class="highlighted-item">Joined the RBench project under the guidance of Meng-Hao Guo, a PhD candidate from GGCG Lab.</li>
-                    <li class="highlighted-item">Leading the Reasoning Attention project conworking with Meng-Hao Guo.</li>
-                </ul>
-            </div>
-            
-            <div class="entry-container mt-6">
-                <div class="flex flex-col md:flex-row justify-between mb-1">
-                    <div class="md:w-2/3">
-                        <p class="font-semibold">RBench Project</p>
-                        <p class="text-gray-600">Beijing, China</p>
-                    </div>
-                    <div class="md:w-1/3 text-right md:text-left md:pl-4">
-                        <p class="text-accent">November 2024 – February 2025</p>
-                    </div>
-                </div>
-                <ul class="space-y-1 mt-2">
-                    <li class="highlighted-item">Created a benchmark that can test the reasoning capabilities of models, covering multimodal, multilingual, and interdisciplinary aspects.</li>
-                    <li class="highlighted-item">Built a model evaluation framework suitable for this project using VLMEvalKit.</li>
-                    <li class="highlighted-item">The research findings have been accepted by ICML 2025.</li>
-                </ul>
-            </div>
-            
-            <div class="entry-container mt-6">
-                <div class="flex flex-col md:flex-row justify-between mb-1">
-                    <div class="md:w-2/3">
-                        <p class="font-semibold">Reasoning Attention Project</p>
-                        <p class="text-gray-600">Beijing, China</p>
-                    </div>
-                    <div class="md:w-1/3 text-right md:text-left md:pl-4">
-                        <p class="text-accent">March 2025 – Present</p>
-                    </div>
-                </div>
-                <ul class="space-y-1 mt-2">
-                    <li class="highlighted-item">Lead a project coworking with Meng-Hao Guo, aiming to reducing the multi-modal hallucinations caused by the low attention of the visual tokens.</li>
-                    <li class="highlighted-item">The research findings are preparing for AAAI 2026.</li>
-                </ul>
-            </div>
-            
-            <div class="entry-container mt-6">
-                <div class="flex flex-col md:flex-row justify-between mb-1">
-                    <div class="md:w-2/3">
-                        <p class="font-semibold">AI Research Intern, Beijing Zhipu AI Technology Co., Ltd.</p>
-                        <p class="text-gray-600">Beijing, China</p>
-                    </div>
-                    <div class="md:w-1/3 text-right md:text-left md:pl-4">
-                        <p class="text-accent">March 2024 – April 2025</p>
-                    </div>
-                </div>
-                <ul class="space-y-1 mt-2">
-                    <li class="highlighted-item">Actively involved in a video generation model project as a research intern at Zhipu AI.</li>
-                    <li class="highlighted-item">Experienced in distributed training with hundreds of GPUs and proficient in training with CogVLM.</li>
-                </ul>
-            </div>
-            
-            <div class="entry-container mt-6">
-                <div class="flex flex-col md:flex-row justify-between mb-1">
-                    <div class="md:w-2/3">
-                        <p class="font-semibold">Knowledge Engineering Group, Tsinghua University</p>
-                        <p class="text-gray-600">Beijing, China</p>
-                    </div>
-                    <div class="md:w-1/3 text-right md:text-left md:pl-4">
-                        <p class="text-accent">November 2023 – December 2024</p>
-                    </div>
-                </div>
-                <ul class="space-y-1 mt-2">
-                    <li class="highlighted-item">Participated in multimodal group at KEG Lab, focusing on textual-visual graph research under the guidance of Associate Professor Yuxiao Dong.</li>
-                    <li class="highlighted-item">Joined the VisionReward project under the guidance of Jiazheng Xu, a PhD candidate from KEG Lab, aiming to develop a reward model for vision generative models.</li>
-                </ul>
-            </div>
-            
-            <div class="entry-container mt-6">
-                <div class="flex flex-col md:flex-row justify-between mb-1">
-                    <div class="md:w-2/3">
-                        <p class="font-semibold">VisionReward Project</p>
-                        <p class="text-gray-600">Beijing, China</p>
-                    </div>
-                    <div class="md:w-1/3 text-right md:text-left md:pl-4">
-                        <p class="text-accent">June 2024 – December 2024</p>
-                    </div>
-                </div>
-                <ul class="space-y-1 mt-2">
-                    <li class="highlighted-item">Developed a reward model for evaluating image and video quality precisely and explainably in different dimensions.</li>
-                    <li class="highlighted-item">Conducted experiments, took on engineering tasks within the project, and found an appropriate way to train a reward model.</li>
-                    <li class="highlighted-item">The final outcome of VisionReward is under review with ICCV 2025.</li>
-                </ul>
-            </div>
-            
-            <div class="entry-container mt-6">
-                <div class="flex flex-col md:flex-row justify-between mb-1">
-                    <div class="md:w-2/3">
-                        <p class="font-semibold">Tsinghua Information Retriever Group, Tsinghua University</p>
-                        <p class="text-gray-600">Beijing, China</p>
-                    </div>
-                    <div class="md:w-1/3 text-right md:text-left md:pl-4">
-                        <p class="text-accent">May 2024 – October 2024</p>
-                    </div>
-                </div>
-                <ul class="space-y-1 mt-2">
-                    <li class="highlighted-item">Focused on research about Retrieval-augmented Generation under the guidance of Assistant Professor Qingyao Ai.</li>
-                    <li class="highlighted-item">Constructed a RAG system with LangChain framework.</li>
-                </ul>
-            </div>
-        </section>
+      <!-- FuzzingRL -->
+      <div class="entry-container">
+        <div class="flex flex-col md:flex-row justify-between mb-1">
+          <div class="md:w-2/3">
+            <p class="font-semibold">FuzzingRL: Reinforcement Fuzz-Testing for Revealing VLM Failures</p>
+          </div>
+        </div>
+        <p class="mb-1">
+          <strong>Jiajun Xu</strong>, Jiageng Mao, Ang Qi, Weiduo Yuan, Alexander Romanus, Helen Xia, Vitor Campagnolo Guizilini, Yue Wang
+        </p>
+        <p class="text-gray-600">CVPR 2026 (under review)</p>
+      </div>
 
-        <!-- 竞赛经历 -->
-        <section class="mb-8">
-            <h2 class="section-title">Contest Experience</h2>
-            
-            <div class="entry-container">
-                <div class="flex flex-col md:flex-row justify-between mb-1">
-                    <div class="md:w-2/3">
-                        <p class="font-semibold">Tsinghua University Intelligent Agent Competition, Programmer</p>
-                        <p class="text-gray-600">Beijing, China</p>
-                    </div>
-                    <div class="md:w-1/3 text-right md:text-left md:pl-4">
-                        <p class="text-accent">May 2023</p>
-                    </div>
-                </div>
-                <ul class="space-y-1 mt-2">
-                    <li class="highlighted-item">Self-taught Python, Git, computer networks, etc., and collaborated with a team to develop an intelligent agent for the game "Minecraft" that can automatically perform player operations.</li>
-                </ul>
-            </div>
-            
-            <div class="entry-container mt-6">
-                <div class="flex flex-col md:flex-row justify-between mb-1">
-                    <div class="md:w-2/3">
-                        <p class="font-semibold">2024 COMAP Mathematical Contest in Modeling, Team Leader</p>
-                        <p class="text-gray-600">Beijing, China</p>
-                    </div>
-                    <div class="md:w-1/3 text-right md:text-left md:pl-4">
-                        <p class="text-accent">February 2024</p>
-                    </div>
-                </div>
-                <ul class="space-y-1 mt-2">
-                    <li class="highlighted-item">Planned and coordinated the team's work, led the team to study the necessary knowledge, and received an Honorable Mention Award.</li>
-                    <li class="highlighted-item">Used multi-level analysis, K-means algorithm, and TOPSIS comprehensive evaluation method to model the risk level of a region, quantifying a risk index directly usable by insurance companies.</li>
-                </ul>
-            </div>
-        </section>
+      <!-- R-Bench -->
+      <div class="entry-container mt-6">
+        <div class="flex flex-col md:flex-row justify-between mb-1">
+          <div class="md:w-2/3">
+            <p class="font-semibold">R-Bench: Graduate-level Multi-disciplinary Benchmarks for LLM &amp; MLLM Complex Reasoning Evaluation</p>
+          </div>
+        </div>
+        <p class="mb-1">
+          Meng-Hao Guo, <strong>Jiajun Xu</strong>, Yi Zhang, Jiaxi Song, Haoyang Peng, Yi-Xuan Deng, Xinzhi Dong, Kiyohiro Nakayama, Zhengyang Geng, Chen Wang, Bolin Ni, Guo-Wei Yang, Yongming Rao, Houwen Peng, Han Hu, Gordon Wetzstein, Shi-min Hu
+        </p>
+        <p class="text-accent hover:underline transition-colors">
+          <a href="https://arxiv.org/pdf/2505.02018" target="_blank" rel="noopener noreferrer">arXiv</a>
+          <span class="text-gray-600"> (ICML 2025)</span>
+        </p>
+      </div>
 
-        <!-- 课外活动 -->
-        <section class="mb-8">
-            <h2 class="section-title">Extracurricular Activities</h2>
-            
-            <div class="entry-container">
-                <div class="flex flex-col md:flex-row justify-between mb-1">
-                    <div class="md:w-2/3">
-                        <p class="font-semibold">Class Monitor of Class 22 in the Department of Computer Science and Technology, Tsinghua University</p>
-                        <p class="text-gray-600">Beijing, China</p>
-                    </div>
-                    <div class="md:w-1/3 text-right md:text-left md:pl-4">
-                        <p class="text-accent">September 2023 – September 2024</p>
-                    </div>
-                </div>
-                <ul class="space-y-1 mt-2">
-                    <li class="highlighted-item">Managed class affairs, assisted class teachers and counselors in class management, and organized various class and group activities.</li>
-                    <li class="highlighted-item">During tenure as class monitor, the class was awarded the title of Best Youth League Branch, the highest honor for a class in Tsinghua University.</li>
-                </ul>
-            </div>
-            
-            <div class="entry-container mt-6">
-                <div class="flex flex-col md:flex-row justify-between mb-1">
-                    <div class="md:w-2/3">
-                        <p class="font-semibold">Vice Minister of Department of Internal Contacts, Tsinghua University Science Association</p>
-                        <p class="text-gray-600">Beijing, China</p>
-                    </div>
-                    <div class="md:w-1/3 text-right md:text-left md:pl-4">
-                        <p class="text-accent">September 2023 - Present</p>
-                    </div>
-                </div>
-                <ul class="space-y-1 mt-2">
-                    <li class="highlighted-item">Coordinated and organized various scientific research competitions within the university.</li>
-                    <li class="highlighted-item">Established connections between different departments and the university science association.</li>
-                </ul>
-            </div>
-        </section>
+      <!-- VisionReward -->
+      <div class="entry-container mt-6">
+        <div class="flex flex-col md:flex-row justify-between mb-1">
+          <div class="md:w-2/3">
+            <p class="font-semibold">VisionReward: Fine-Grained Multi-Dimensional Human Preference Learning for Image and Video Generation</p>
+          </div>
+        </div>
+        <p class="mb-1">
+          Jiazheng Xu*, Yu Huang*, Jiale Cheng, Yuanming Yang, <strong>Jiajun Xu</strong>, Yuan Wang, Wenbo Duan, Shen Yang, Qunlin Jin, Shurun Li, Jiayan Teng, Zhuoyi Yang, Wendi Zheng, Xiao Liu, Ming Ding, Xiaohan Zhang, Xiaotao Gu, Shiyu Huang, Minlie Huang, Jie Tang, Yuxiao Dong
+        </p>
+        <p class="text-gray-600">AAAI 2026</p>
+      </div>
+    </section>
 
-        <!-- 页脚信息 -->
-        <footer class="text-right text-gray-500 text-sm mt-12">
-            <p>Last updated in May 2025</p>
-        </footer>
-    </div>
+    <!-- Skills -->
+    <section class="mb-8">
+      <h2 class="section-title">Skills</h2>
+      <div class="entry-container">
+        <p class="mb-2">
+          <span class="font-semibold">Artificial Intelligence:</span>
+          PyTorch, Transformer Frameworks, Diffusion Model, build model frameworks and train models.
+        </p>
+        <p>
+          <span class="font-semibold">Programming Languages:</span>
+          C, C++, Python, Java, CUDA, Rust.
+        </p>
+      </div>
+    </section>
 
-    <!-- 交互脚本 -->
-    <script>
-        // 添加平滑滚动效果
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
+    <!-- Research Experience -->
+    <section class="mb-8">
+      <h2 class="section-title">Research Experience</h2>
+
+      <!-- USC GVL -->
+      <div class="entry-container">
+        <div class="flex flex-col md:flex-row justify-between mb-1">
+          <div class="md:w-2/3">
+            <p class="font-semibold">Geometry, Vision, and Learning (GVL) Laboratory, University of Southern California</p>
+            <p class="text-gray-600">Beijing, China</p>
+          </div>
+          <div class="md:w-1/3 text-right md:text-left md:pl-4">
+            <p class="text-accent">June 2025 – Present</p>
+          </div>
+        </div>
+        <ul class="space-y-1 mt-2">
+          <li class="highlighted-item">Engaged in research at the GVL Lab as a remote visiting student under the guidance of Assistant Professor Yue Wang.</li>
+          <li class="highlighted-item">Leading the FuzzingRL project, aiming to systematically generate adversarially challenging queries by combining fuzz testing with reinforcement learning to reliably expose VLM vulnerabilities, coworking with Jiageng Mao (PhD candidate at GVL).</li>
+        </ul>
+      </div>
+
+      <!-- GGCG -->
+      <div class="entry-container mt-6">
+        <div class="flex flex-col md:flex-row justify-between mb-1">
+          <div class="md:w-2/3">
+            <p class="font-semibold">Graphics and Geometric Computing Group, Tsinghua University</p>
+            <p class="text-gray-600">Beijing, China</p>
+          </div>
+          <div class="md:w-1/3 text-right md:text-left md:pl-4">
+            <p class="text-accent">October 2024 – Present</p>
+          </div>
+        </div>
+        <ul class="space-y-1 mt-2">
+          <li class="highlighted-item">Conducted research in computer graphics, computer vision, and multimodal large models under the guidance of Professor Shi-Min Hu.</li>
+          <li class="highlighted-item">Joined the R-Bench project under the guidance of Meng-Hao Guo (Postdoc at GGCG).</li>
+          <li class="highlighted-item">Leading the Reasoning Attention project, collaborating with Meng-Hao Guo.</li>
+        </ul>
+      </div>
+
+      <!-- Zhipu AI -->
+      <div class="entry-container mt-6">
+        <div class="flex flex-col md:flex-row justify-between mb-1">
+          <div class="md:w-2/3">
+            <p class="font-semibold">AI Research Intern, Beijing Zhipu AI Technology Co., Ltd.</p>
+            <p class="text-gray-600">Beijing, China</p>
+          </div>
+          <div class="md:w-1/3 text-right md:text-left md:pl-4">
+            <p class="text-accent">March 2024 – April 2025</p>
+          </div>
+        </div>
+        <ul class="space-y-1 mt-2">
+          <li class="highlighted-item">Actively involved in a video generation model project as a research intern.</li>
+          <li class="highlighted-item">Experienced in distributed training with hundreds of GPUs and proficient in training with CogVLM.</li>
+        </ul>
+      </div>
+
+      <!-- KEG -->
+      <div class="entry-container mt-6">
+        <div class="flex flex-col md:flex-row justify-between mb-1">
+          <div class="md:w-2/3">
+            <p class="font-semibold">Knowledge Engineering Group, Tsinghua University</p>
+            <p class="text-gray-600">Beijing, China</p>
+          </div>
+          <div class="md:w-1/3 text-right md:text-left md:pl-4">
+            <p class="text-accent">November 2023 – April 2025</p>
+          </div>
+        </div>
+        <ul class="space-y-1 mt-2">
+          <li class="highlighted-item">Participated in the multimodal group at KEG Lab, focusing on textual-visual graph research under the guidance of Associate Professor Yuxiao Dong.</li>
+          <li class="highlighted-item">Joined the VisionReward project under the guidance of Jiazheng Xu (PhD candidate at KEG), aiming to develop a reward model for vision generative models.</li>
+        </ul>
+      </div>
+
+      <!-- Tsinghua IR -->
+      <div class="entry-container mt-6">
+        <div class="flex flex-col md:flex-row justify-between mb-1">
+          <div class="md:w-2/3">
+            <p class="font-semibold">Tsinghua Information Retriever Group, Tsinghua University</p>
+            <p class="text-gray-600">Beijing, China</p>
+          </div>
+          <div class="md:w-1/3 text-right md:text-left md:pl-4">
+            <p class="text-accent">May 2024 – October 2024</p>
+          </div>
+        </div>
+        <ul class="space-y-1 mt-2">
+          <li class="highlighted-item">Focused on research about Retrieval-Augmented Generation under the guidance of Assistant Professor Qingyao Ai.</li>
+          <li class="highlighted-item">Constructed a RAG system with the LangChain framework.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contest Experience -->
+    <section class="mb-8">
+      <h2 class="section-title">Contest Experience</h2>
+
+      <div class="entry-container">
+        <div class="flex flex-col md:flex-row justify-between mb-1">
+          <div class="md:w-2/3">
+            <p class="font-semibold">Tsinghua University Intelligent Agent Competition, Programmer</p>
+            <p class="text-gray-600">Beijing, China</p>
+          </div>
+          <div class="md:w-1/3 text-right md:text-left md:pl-4">
+            <p class="text-accent">May 2023</p>
+          </div>
+        </div>
+        <ul class="space-y-1 mt-2">
+          <li class="highlighted-item">Self-taught Python, Git, computer networks, etc., and collaborated with a team to develop an intelligent agent for the game “Minecraft” that can automatically perform player operations.</li>
+        </ul>
+      </div>
+
+      <div class="entry-container mt-6">
+        <div class="flex flex-col md:flex-row justify-between mb-1">
+          <div class="md:w-2/3">
+            <p class="font-semibold">2024 COMAP Mathematical Contest in Modeling, Team Leader</p>
+            <p class="text-gray-600">Beijing, China</p>
+          </div>
+          <div class="md:w-1/3 text-right md:text-left md:pl-4">
+            <p class="text-accent">February 2024</p>
+          </div>
+        </div>
+        <ul class="space-y-1 mt-2">
+          <li class="highlighted-item">Planned and coordinated the team’s work, led the team to study the necessary knowledge, and received an Honorable Mention Award.</li>
+          <li class="highlighted-item">Used multi-level analysis, K-means algorithm, and TOPSIS comprehensive evaluation method to model regional risk levels, producing a risk index directly usable by insurance companies.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Extracurricular Activities -->
+    <section class="mb-8">
+      <h2 class="section-title">Extracurricular Activities</h2>
+
+      <div class="entry-container">
+        <div class="flex flex-col md:flex-row justify-between mb-1">
+          <div class="md:w-2/3">
+            <p class="font-semibold">Class Monitor of Class 22 in the Department of Computer Science and Technology, Tsinghua University</p>
+            <p class="text-gray-600">Beijing, China</p>
+          </div>
+          <div class="md:w-1/3 text-right md:text-left md:pl-4">
+            <p class="text-accent">September 2023 – Present</p>
+          </div>
+        </div>
+        <ul class="space-y-1 mt-2">
+          <li class="highlighted-item">Managed class affairs, assisted class teachers and counselors in class management, and organized various class and group activities.</li>
+          <li class="highlighted-item">During tenure as class monitor, the class was awarded the title of Best Youth League Branch, the highest honor for a class in Tsinghua University.</li>
+        </ul>
+      </div>
+
+      <div class="entry-container mt-6">
+        <div class="flex flex-col md:flex-row justify-between mb-1">
+          <div class="md:w-2/3">
+            <p class="font-semibold">Vice Minister of Department of Internal Contacts, Tsinghua University Science Association</p>
+            <p class="text-gray-600">Beijing, China</p>
+          </div>
+          <div class="md:w-1/3 text-right md:text-left md:pl-4">
+            <p class="text-accent">September 2023 – September 2024</p>
+          </div>
+        </div>
+        <ul class="space-y-1 mt-2">
+          <li class="highlighted-item">Coordinated and organized various scientific research competitions within the university.</li>
+          <li class="highlighted-item">Established connections between different departments and the university science association.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-right text-gray-500 text-sm mt-12">
+      <p>Last updated in December 2025</p>
+    </footer>
+  </div>
+
+  <script>
+    // Smooth scroll for internal anchors (kept for compatibility)
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
         });
+      });
+    });
 
-        // 页面加载动画
-        document.addEventListener('DOMContentLoaded', () => {
-            document.body.classList.add('opacity-100');
-            document.body.classList.remove('opacity-0');
-        });
-    </script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.body.classList.add('opacity-100');
+      document.body.classList.remove('opacity-0');
+    });
+  </script>
 </body>
 </html>
