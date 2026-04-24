@@ -21,6 +21,6 @@ My specific research interests are:
 
 I have been looking forward to communicating and collaborating with others who share my interests, hoping to work together on interesting projects.
 
-Meanwhile, I expect to graduate in 2026. If you are interested in me, you can check my cv.
+Meanwhile, I expect to graduate in 2027. If you are interested in me, you can check my cv.
 
 Feel free to contact me!
